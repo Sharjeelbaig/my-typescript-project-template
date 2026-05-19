@@ -1,4 +1,4 @@
-# my-vibe-coding-prompt boilerplate
+# Sharjeel's boilerplate
 
 Production-oriented monorepo starter for **React + Vite + Hono + Neon + Firebase + Ollama Cloud**.
 

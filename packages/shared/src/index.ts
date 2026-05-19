@@ -1,5 +1,7 @@
 import { z } from 'zod'
 
+export * from './env.js'
+
 export const apiErrorSchema = z.object({
   success: z.literal(false),
   error: z.object({

@@ -1,5 +1,8 @@
 import { Ollama } from 'ollama'
 import { z } from 'zod'
+import { loadEnv } from '@packages/shared'
+
+loadEnv()
 
 const aiEnvSchema = z.object({
   OLLAMA_API_KEY: z.string().optional(),
